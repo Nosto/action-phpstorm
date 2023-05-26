@@ -1,4 +1,4 @@
-FROM mridang/jbstorm:latest
+FROM supercid/jbstorm:latest
 RUN apt-get update -y
 RUN apt-get install -y xsltproc
 COPY *.xslt /
